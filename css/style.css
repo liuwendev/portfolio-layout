@@ -1,0 +1,110 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 20px 40px;
+    border-radius: 3px;
+}
+
+
+.header {
+    position: absolute;
+    padding: 29px 144px;
+    width: 100%;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-list__item {
+    display: inline-block;
+}
+
+.menu-list__link {
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.main {
+    background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+    padding: 120px 44px 0 144px;
+}
+
+.main__title {
+    color: #FFFFFF;
+    font-size: 80px;
+    margin: 0;
+}
+
+.main__descr {
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.main__button {
+    background: #FC0A7E;
+    color: #FFFFFF;
+}
+
+.banner__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* preview */
+.preview {
+    background: #1B1B1B;
+    padding-top: 100px;
+}
+
+.screen__text {
+    display: flex;
+    justify-content: center;
+}
+
+.preview__title {
+    color: #A8A8A8;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.preview__descr {
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 55px;
+    max-width: 600px;
+}
+
+.preview__image {
+    display: block;
+}
